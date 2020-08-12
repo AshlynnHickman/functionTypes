@@ -1,0 +1,53 @@
+/////////////////////////////////////////////
+// Starts as function decleration  //////////
+/////////////////////////////////////////////
+
+const user = 'Mr G';
+
+function greetUser() {
+    const greeting = 'hello' + user;
+    console.log(greeting);
+}
+
+function bidFarewell() {
+    console.log("see ya, " + name);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/////////////////////////////////////////////
+// changes to function expression  //////////
+/////////////////////////////////////////////
+
+let greetUser = function() {
+    const greeting = 'hello' + user;
+    console.log(greeting);
+}
+
+/////////////////////////////////////////////
+// calling the function expression  /////////
+/////////////////////////////////////////////
+greetUser();
+
+/////////////////////////////////////////////
+// changes to arrow function   //////////////
+/////////////////////////////////////////////
+
+let greetUser = () => {
+    const greeting = 'hello' + user;
+    console.log(greeting);
+}

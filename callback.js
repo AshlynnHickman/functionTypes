@@ -1,0 +1,17 @@
+//////////////////////////////////////////////
+// Function that will be called upon /////////
+//////////////////////////////////////////////
+function welcomeMessage(name) {
+    alert('Hello ' + name);
+}
+
+//////////////////////////////////////////////
+// function that accepts call back argument //
+//////////////////////////////////////////////
+
+function UserInput(callback) {
+    var name = prompt('Please enter your name.');
+    callback(name);
+}
+
+UserInput(greeting);
